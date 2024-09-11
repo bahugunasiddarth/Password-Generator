@@ -24,9 +24,9 @@ for char in range (1,nr_numbers+1):
     password += random_char  
 
 random.shuffle(password)  
-passw=""
+passwd=""
 
 for char in password:
-    passw += char
+    passwd += char
 
 print(f"Your Password Is{passw}")
